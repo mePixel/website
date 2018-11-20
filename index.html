@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xaver Drabik</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="parallax.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="parallax.js"></script>
+  <script src="typed.js"></script>
+
+</head>
+
+<body>
+
+
+  <div class="layer1 parallax--bg1">
+    <div class="layer2 parallax--bg2">
+      <div class="layer3 parallax--bg3">
+        <div class="layer4 parallax--bg4">
+          <div class="content">
+
+            <div class="header">
+              <h1>Xaver Drabik</h1>
+              <h2 class="type"></h2>
+            </div>
+
+            <div class="wrapper">
+              <div class="table">
+                <div class="left">
+                  <b>left</b>
+                </div>
+                <div class="right">
+                  <b>right</b>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+  <script>
+    function scrollWin() {
+      window.scrollTo(300, 500);
+      window.scrollTo(0, 0);
+    }
+    window.onload = scrollWin;
+  </script>
+
+  <script>
+    var typed = new Typed('.type', {
+      strings: ["Designer", "Developer", "Photographer"],
+      typeSpeed: 30,
+      backSpeed: 40,
+      backDelay: 1000,
+      showCursor: true,
+      smartBackspace: false,
+      loop: true
+    });
+  </script>
+</body>
+
+</html>
