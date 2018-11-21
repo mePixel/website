@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+  scroll-behavior: auto;
+}
+
 body {
   height: 10000px;
   color: rgb(37, 37, 37);
