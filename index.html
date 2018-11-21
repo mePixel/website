@@ -28,6 +28,7 @@
               <div class="text">
                 <h1>Xaver Drabik</h1>
                 <h2 class="type"></h2>
+                <button class="button" href="#section1">Projekte</button>
               </div>
             </div>
 
@@ -35,17 +36,16 @@
               <div class="table">
                 <div class="left">
                   <b>left</b>
-
                 </div>
                 <div class="right">
                   <b>right</b>
                 </div>
               </div>
             </div>
-            <div class="gallery">
-
+            <h1>Design mit Style.(css)</h1>
+            <div class="gallery" id="section1">
               <img src="gallery/bild1.jpg">
-              <p>This is cool Text that is beeing Displayed here! :oooooo</p>
+              <p>This Text descripes the Placeholder up above! :o</p>
             </div>
           </div>
         </div>
@@ -57,16 +57,20 @@
 
 
   <script>
-        function scrollWin() {
-          window.scrollTo(300, 500);
-          window.scrollTo(0, 0);
-        }
-        window.onload = scrollWin;
+    function scrollWin() {
+      window.scrollTo(300, 500);
+      window.scrollTo(0, 0);
+    }
+    window.onload = scrollWin;
   </script>
+
+<script>
+
+</script>
 
   <script>
     var typed = new Typed('.type', {
-      strings: ["Designer", "Developer", ],
+      strings: ["Designer", "Developer", "Photographer"],
       typeSpeed: 30,
       backSpeed: 40,
       backDelay: 1000,
